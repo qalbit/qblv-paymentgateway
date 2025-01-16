@@ -1,5 +1,5 @@
 {
-    "name": "xgenious-fundorex/paymentgateway",
+    "name": "qalbit/qblv-paymentgateway",
     "description": "a laravel package to manage multiple payment gateway",
     "keywords": [
         "Laravel",
