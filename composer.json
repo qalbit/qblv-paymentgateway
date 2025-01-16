@@ -14,7 +14,7 @@
     "homepage": "https://github.com/Sharifur/paymentgateway",
     "require": {
         "php": "^7.4|^8.0",
-        "laravel/framework": "^8.0",
+        "laravel/framework": "^8.0||^9.0",
         "stripe/stripe-php": "^7.103",
         "srmklive/paypal": "~3.0",
         "midtrans/midtrans-php": "^2.5",
@@ -26,7 +26,7 @@
         "billowapp/payfast": "^0.4.0",
         "mercadopago/dx-php":"^2.4.4",
         "tzsk/payu": "^5.2",
-        "square/square": "18.0.0.20220420",
+        "square/square": "29.1.0.20230720",
         "cinetpay/cinetpay-php": "^1.9",
         "paytabscom/laravel_paytabs": "dev-master",
         "jomweb/billplz-laravel" : "^2.2.2"
@@ -57,5 +57,10 @@
     "scripts": {
         "test": "vendor/bin/phpunit -c ./phpunit.xml --colors=always",
         "analysis": "vendor/bin/phpstan analyse"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
     }
 }
