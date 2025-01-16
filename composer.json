@@ -29,7 +29,7 @@
         "square/square": "29.1.0.20230720",
         "cinetpay/cinetpay-php": "^1.9",
         "paytabscom/laravel_paytabs": "dev-master",
-        "jomweb/billplz-laravel" : "^2.2.2"
+        "jomweb/billplz-laravel" : "^3.0.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.0",
