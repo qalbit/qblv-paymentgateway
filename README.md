@@ -10,14 +10,14 @@ add below code to your ``composer.json`` file
  "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/Sharifur/paymentgateway.git"
+            "url": "https://github.com/qalbit/qblv-paymentgateway.git"
         }
     ],
 ````
 
 run below command to install this package from your command promt or terminal
 ````shell
-composer require xgenious/paymentgateway 
+composer require qalbit/qblv-paymentgateway 
 ````
 
 if this payment package asked you for username and password here is it or generate your own token.
